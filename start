@@ -1,0 +1,22 @@
+#!/bin/bash
+sleep 0.5
+clear
+sleep 0.5
+
+apt update -y
+apt upgrade -y
+apt install figlet -y
+clear
+apt install nodejs -y
+npm install http-server -g
+clear
+figlet -f small "Anonym-R"
+sleep 2
+http-server
+clear
+echo
+sleep 2
+echo -e "\e[36m\e[1mTool Created By \e[33mAnonym-R \e[0m\e[1m"
+sleep 1
+echo -e "\e[36m\e[1mDeveloped By \e[33m\e[1mSutariya Parixit\e[0m\e[1m"
+sleep 2
